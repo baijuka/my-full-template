@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul{
+    list-style: none; /* remove bullet points*/
+    background-color: #4a4a4f;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    font-size: 1.2em; /* which is a relative font size*/
+    line-height: 40px;
+    height: 40px; /* individual height of our list item will stand bit higher */
+    display: inline-block; /* items will appear next to each other horizontally*/
+    margin: 2.5%  /* will add some breathing space */
+}
+
+nav a {
+    text-decoration: none;  /* will remove underline */
+    color: #fff; /* font-color will be off white against charcol background #4a4a4f*/
+    display: block; /* anchor tags will display as block elements */
+}
+
+nav a:hover {
+    background-color: #fff; /* colors will be inverted */
+    color: #4a4a4f;
+}
+
+.card {
+    float: left; /* items will appear in a single row */
+    width: 20%; /* card is going to be 20% of the width of the screen */
+    margin-left: 10%; /* give a bit of white space between cards */
+}
+
+.card a {
+    text-align: center; /* text will be centered */
+}
+
+img {
+    width: 100%; /* it is a relative width, relative width of the container that is in. here card is 20% percent of sreen width. so image will be 100% of card width */
+    height: 180px; /* will keep all images in the same height */ 
+}
+
+h1 {
+    text-align: center; /* heading will be centered */
+}
